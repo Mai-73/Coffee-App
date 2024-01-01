@@ -12,8 +12,14 @@ header{
     z-index: 2;
 }
 
-nav img{
+nav{
+    background-color: rgba(59, 32, 18, 0.8);
+    
 
+}
+nav img{
+   /* position: absolute;    */
+   margin-left: 40px;
 }
 
 nav .form-inline{
@@ -22,11 +28,11 @@ nav .form-inline{
 
 nav .navbar-collapse{
    position: absolute;
-   right: 50px;
+   right: 40px;
 }
 
 .nav-item{
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 /*----------------------------- main----------------------------------- */
@@ -44,6 +50,6 @@ main {
 
 .sec1{
     height: 100lvh;
-    background-color: aqua;
+    background-color: rgb(54, 28, 28);
 
 }
