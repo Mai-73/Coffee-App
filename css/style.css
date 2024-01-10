@@ -213,7 +213,14 @@ main {
 }
 
 .item-overlay{
-    background-color: rgba(50, 50, 50, 0.9);
+    position: absolute;
+    background-color: rgba(50, 50, 50, 0.3);
+    visibility: hidden;
+    transition: 0.2s;
+}
+
+.e-shop-item:hover .item-overlay{
+    visibility: visible;
 }
 
 
