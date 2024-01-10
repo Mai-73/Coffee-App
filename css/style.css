@@ -108,10 +108,37 @@ main {
 
 }
 
-.card-type{
-    /* width: 250px; */
-    margin: 50px 0;
+
+.card-type {
+    /* width: 350px;     */
+    height: 360px;
+    margin: 100px 0;
+    position: relative
 }
+
+.type-img {
+    position: absolute;
+    height: 100%;
+}
+
+.type-overlay {
+    position: absolute;
+    background-color: rgba(20, 20, 20, 0.7);
+    color: aliceblue;
+    text-align: center;
+    /* padding-top: 50px; */
+    line-height: 40px;
+    visibility: hidden;
+    transition: 0.2s;
+
+
+}
+
+.card-type:hover .type-overlay {
+    visibility: visible;
+}
+
+
 
 /* ---------------------------------------sec5----------------------------- */
 
@@ -122,6 +149,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 50px;
     background-attachment: fixed;
     text-align: center;
 }
