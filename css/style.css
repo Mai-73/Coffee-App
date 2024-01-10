@@ -204,31 +204,35 @@ main {
 
 .e-shop-item {
     position: relative;
-    width: 270px;
     min-height: 300px;
     margin-top: 50px;
     margin-bottom: 30px;
+
     text-align: center;
     /* background-color: rgba(47, 47, 51, 0.7); */
 }
 
-.item-overlay{
+.e-shop-item .card-body {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.item-overlay {
     position: absolute;
     background-color: rgba(50, 50, 50, 0.3);
     visibility: hidden;
     transition: 0.2s;
 }
 
-.e-shop-item:hover .item-overlay{
+.e-shop-item:hover .item-overlay {
     visibility: visible;
 }
 
-
-
-.item-title {
-    font-size: 20px;
+.e-shop-item .card-body .item-title {
+    font-size: 22px;
 }
 
-.item-text {
+.e-shop-item .card-body .item-text {
     font-size: 15px;
+    
 }
