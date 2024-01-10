@@ -177,4 +177,51 @@ main {
 
 }
 
-/* ---------------------------------------sec6----------------------------- */
+/* ---------------------------------------sec7----------------------------- */
+.sec7 {
+    margin-top: 40px;
+    background-color: rgba(223, 198, 180, 0.918);
+}
+
+.e-shop-title {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.line {
+    width: 80px;
+    height: 3px;
+    background-color: brown;
+    margin: auto;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.e-shop-sec:hover .line {
+    width: 150px;
+}
+
+.e-shop-item {
+    position: relative;
+    width: 270px;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* background-color: rgba(47, 47, 51, 0.7); */
+}
+
+.item-overlay{
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+
+
+.item-title {
+    font-size: 20px;
+}
+
+.item-text {
+    font-size: 15px;
+}
