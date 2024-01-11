@@ -244,14 +244,13 @@ footer {
     background-color: rgba(59, 32, 18, 0.95);
     color: whitesmoke;
     padding: 50px;
-
-    text-align: center;
+    /* text-align: center; */
     word-spacing: 2px;
     letter-spacing: 2px;
     line-height: 30px;
 }
 
-.footer-links {
+/* .footer-links {
     list-style: none;
     margin: 20px 0px;
 }
@@ -270,4 +269,4 @@ footer {
 .footer-links li a {
     text-decoration: none;
     color: rgb(231, 225, 225);
-}
+} */
