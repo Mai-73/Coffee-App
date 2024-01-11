@@ -180,7 +180,8 @@ main {
 /* ---------------------------------------sec7----------------------------- */
 .sec7 {
     margin-top: 40px;
-    background-color: rgba(223, 198, 180, 0.918);
+    background-color: rgba(100, 54, 31, 0.1);
+
 }
 
 .e-shop-title {
@@ -192,7 +193,7 @@ main {
 .line {
     width: 80px;
     height: 3px;
-    background-color: brown;
+    background-color: rgba(59, 32, 18, 0.95);
     margin: auto;
     margin-top: 10px;
     transition: 0.5s;
@@ -234,5 +235,39 @@ main {
 
 .e-shop-item .card-body .item-text {
     font-size: 15px;
-    
+
+}
+
+/* -----------------------footer-section------------------------ */
+
+footer {
+    background-color: rgba(59, 32, 18, 0.95);
+    color: whitesmoke;
+    padding: 50px;
+
+    text-align: center;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.footer-links {
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.footer-links li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(88, 88, 88);
+
+    font-size: 20px;
+    padding: 1px 2px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: rgb(231, 225, 225);
 }
