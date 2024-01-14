@@ -67,17 +67,23 @@ main {
 }
 
 .title1 {
-    color: white;
-    font-size: 50px;
-    text-transform: uppercase;
+    color: rgb(255, 234, 204);
+
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 70px;
+
 }
 
 .p1 {
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "Cormorant", serif;
     color: rgb(255, 255, 255);
     text-transform: capitalize;
-    letter-spacing: 2px;
-    margin: 10px 0px;
+    letter-spacing: 1px;
+    margin-top: 25px;
 }
 
 .btn {
@@ -102,36 +108,45 @@ main {
 
 /* ---------------------------------------sec1----------------------------- */
 
-.sec1 {
+.sec1 .types .card-type {
     /* height: 100vh; */
     /* background-color: rgb(54, 28, 28); */
 
 }
 
 
-.card-type {
-    /* width: 350px;     */
+.types .card-type {
     height: 360px;
     margin: 100px 0;
-    position: relative
+    position: relative;
 }
 
 .type-img {
     position: absolute;
     height: 100%;
+
+
 }
 
-.type-overlay {
+.types .card-type .type-overlay {
     position: absolute;
     background-color: rgba(20, 20, 20, 0.7);
     color: aliceblue;
     text-align: center;
-    /* padding-top: 50px; */
-    line-height: 40px;
+    padding-top: 100px;
+
+    letter-spacing: 1px;
+    line-height: px;
     visibility: hidden;
     transition: 0.2s;
 
 
+}
+
+.types .card-type .type-overlay .card-title {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 40px;
 }
 
 .card-type:hover .type-overlay {
@@ -174,6 +189,13 @@ main {
     padding-top: 70px;
     margin: auto;
     color: azure;
+
+}
+
+.break-contant .ready {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 60px;
 
 }
 
