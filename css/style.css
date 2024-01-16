@@ -311,7 +311,7 @@ main {
 }
 
 #btn-hover:hover{
-    background-color: red;
+    background-color: rgba(95, 63, 49, 0.95);;
 }
 
 /* -----------------------footer-section------------------------ */
