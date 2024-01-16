@@ -36,6 +36,15 @@ nav .navbar-collapse {
     margin-right: 15px;
 }
 
+/* ----------------links------------------------- */
+
+.list-group {
+    position: fixed;
+    right: 0;
+    top: 20%;
+    z-index: 10;
+}
+
 /*----------------------------- main----------------------------------- */
 
 main {
@@ -260,6 +269,50 @@ main {
 
 }
 
+/* ----------------------- section-8------------------------ */
+.sec8-container {
+    
+}
+
+.sec8-container .info .post-card{
+    position: relative;
+}
+
+
+.sec8-container .info .post-card .post-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: -15px;
+    object-fit: cover;
+    transition: 0.2s;
+}
+
+.sec8-container .info .post-card .post-img:hover{
+    transform: scale(1.05);
+}
+
+
+.sec8-container .info .info-prag {
+    /* background-color: rgb(255, 255, 29);     */
+}
+
+.sec8-container .info .info-prag .load-line {
+    width: 100px;
+    height: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.sec8-container .info:hover .info-prag .load-line {
+    width: 150px;
+}
+
+#btn-hover:hover{
+    background-color: red;
+}
+
 /* -----------------------footer-section------------------------ */
 
 footer {
@@ -271,11 +324,13 @@ footer {
     letter-spacing: 2px;
     line-height: 30px;
 }
-.footer-containt p a{
+
+.footer-containt p a {
     color: aliceblue;
     text-decoration: none;
 }
-.footer-containt p a:hover{
+
+.footer-containt p a:hover {
     color: rgb(92, 96, 99);
-    
+
 }
