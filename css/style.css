@@ -10,12 +10,12 @@ nav {
 
 /* ----------------links------------------------- */
 
-/* .list-group {
+.list-group {
     position: fixed;
     right: 0;
-    top: 20%;
+    top: 25%;
     z-index: 10;
-} */
+}
 
 /*----------------------------- main----------------------------------- */
 /* 
@@ -268,6 +268,10 @@ nav {
 }
 
 .sec8-container .jumbotron .jumbotron1 .jumbotron1-img-img:hover {
+    object-fit: cover;
+
+}
+.sec8-container .jumbotron .jumbotron1 .jumbotron2-img-img:hover {
     object-fit: cover;
 
 }
