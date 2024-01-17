@@ -234,43 +234,42 @@ nav {
 
 /* ----------------------- section-8------------------------ */
 
-.sec8-container .info .post-card{
-    position: relative;
+.sec8-container .jumbotron .jumbotron1 .jumbotron1-img {
+    clip-path: polygon(0% 0%,
+            100% 0%,
+            75% 100%,
+            0% 100%);
+
 }
 
-
-.sec8-container .info .post-card .post-img {
-    position: absolute;
-    width: 100%;
-    min-height: 100%;
-    margin-left: -15px;
-    transition: 3s ;
+.sec8-container .jumbotron .jumbotron1 .jumbotron2-img {
+    clip-path: polygon(0% 0%,
+            100% 0%,
+            100% 100%,
+            25% 100%);
 }
 
-.sec8-container .info .post-card .post-img:hover{
-    
-    object-fit: cover; 
+.sec8-container .jumbotron .jumbotron1 {
+    background-color: rgb(235, 235, 217);
 }
 
-
-.sec8-container .info .info-prag {
-    background-color: rgb(235, 235, 217);    
-}
-
-.sec8-container .info .info-prag .load-line {
+.sec8-container .jumbotron1 .jumbotron1-descreption .load-line {
     width: 100px;
-    height: 5px;
-    background-color: aqua;
-    border-radius: 10px;
     transition: 0.2s;
 }
 
-.sec8-container .info:hover .info-prag .load-line {
+.sec8-container .jumbotron1:hover .jumbotron1-descreption .load-line {
     width: 150px;
 }
 
-#btn-hover:hover{
-    background-color: rgba(95, 63, 49, 0.95);;
+#btn-hover:hover {
+    background-color: rgba(95, 63, 49, 0.95);
+
+}
+
+.sec8-container .jumbotron .jumbotron1 .jumbotron1-img-img:hover {
+    object-fit: cover;
+
 }
 
 /* -----------------------footer-section------------------------ */
