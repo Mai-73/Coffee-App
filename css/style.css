@@ -4,57 +4,29 @@
     box-sizing: border-box;
 }
 
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-}
-
 nav {
     background-color: rgba(59, 32, 18, 0.95);
-
-
-}
-
-nav img {
-    /* position: absolute;    */
-    margin-left: 30px;
-}
-
-nav .form-inline {
-    margin-left: 25px;
-}
-
-nav .navbar-collapse {
-    position: absolute;
-    right: 20px;
-}
-
-.nav-item {
-    margin-right: 15px;
 }
 
 /* ----------------links------------------------- */
 
-.list-group {
+/* .list-group {
     position: fixed;
     right: 0;
     top: 20%;
     z-index: 10;
-}
+} */
 
 /*----------------------------- main----------------------------------- */
 
-main {
+/* main {
     width: 100%;
     height: 100vh;
     background-image: url(../images/2.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-}
+} */
 
 .overlay {
     position: absolute;
@@ -104,24 +76,8 @@ main {
     padding: 15px;
 }
 
-.btn2 {
-    /* background-color: blue; */
-    /* color: rgb(255, 255, 255); */
-
-}
-
-/* .btn:hover {
-    opacity: 0.6;
-
-} */
 
 /* ---------------------------------------sec1----------------------------- */
-
-.sec1 .types .card-type {
-    /* height: 100vh; */
-    /* background-color: rgb(54, 28, 28); */
-
-}
 
 
 .types .card-type {
@@ -270,10 +226,6 @@ main {
 }
 
 /* ----------------------- section-8------------------------ */
-.sec8-container {
-    
-}
-
 
 .sec8-container .info .post-card{
     position: relative;
