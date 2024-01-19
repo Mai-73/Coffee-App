@@ -169,6 +169,7 @@ nav {
     font-weight: 400;
     font-size: 60px;
 
+
 }
 
 /* ---------------------------------------sec7----------------------------- */
@@ -271,9 +272,24 @@ nav {
     object-fit: cover;
 
 }
+
 .sec8-container .jumbotron .jumbotron1 .jumbotron2-img-img:hover {
     object-fit: cover;
 
+}
+
+.custom-shadow{
+    box-shadow: 0 0 30px  rgb(59, 32, 18);
+}
+
+/* -----------------------followUs-section------------------------ */
+.custom-shadow1 {
+    box-shadow: 0 0 20px rgb(66, 66, 66);
+}
+
+.Follow-link:hover{
+    color: rgb(51, 51, 51);
+    text-decoration: none;
 }
 
 /* -----------------------footer-section------------------------ */
