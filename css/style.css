@@ -19,95 +19,38 @@ nav {
 
 /* ----------------titles------------------------- */
 
-.titles{
+.titles {
     font-family: PT Sans Narrow, sans-serif;
-        font-weight: 600;
-        font-style: normal;
-        font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
 }
-
 
 /*----------------------------- main----------------------------------- */
-/* 
-#main #demo .carousel-inner img {
-    width: 100%;
-    height: 100vh;
-  } */
 
-
-/* main {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-} */
-
-
-/* .overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(36, 8, 8, 0.3);
-    top: 0;
-    left: 0;
-
-}
-
-.content {
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.title1 {
-    color: rgb(255, 234, 204);
-
+.mainSection-title {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: italic;
     text-transform: capitalize;
-    font-size: 70px;
-
+    font-size: 40px;
 }
-
-.p1 {
-    font-size: 25px;
-    font-family: "Cormorant", serif;
-    color: rgb(255, 255, 255);
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    margin-top: 25px;
-}
-
-.btn {
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
-    text-transform: capitalize;
-    margin-right: 10px;
-    padding: 15px;
-} */
-
 
 /* ---------------------------------------sec1----------------------------- */
 
 
 .types .card-type {
-    height: 360px;
+    height: 380px;
     margin: 100px 0;
     position: relative;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 
-.type-img {
+.types .card-type .type-img {
     position: absolute;
     height: 100%;
-
-
+    border-radius: 20px;
 }
 
 .types .card-type .type-overlay {
@@ -116,14 +59,13 @@ nav {
     color: aliceblue;
     text-align: center;
     padding-top: 100px;
-
+    border-radius: 20px;
     letter-spacing: 1px;
     line-height: px;
     visibility: hidden;
     transition: 0.2s;
-
-
 }
+
 
 .types .card-type .type-overlay .card-title {
     font-family: "Pacifico", cursive;
@@ -135,7 +77,9 @@ nav {
     visibility: visible;
 }
 
-
+.card-type:hover {
+    transform: scale(0.9, 0.9);
+}
 
 /* ---------------------------------------sec5----------------------------- */
 
@@ -152,8 +96,6 @@ nav {
 }
 
 .coffee-break {
-    /* margin-top: 50px; */
-    /* margin-bottom: 50px; */
     line-height: 70px;
 }
 
@@ -165,74 +107,77 @@ nav {
 }
 
 .break-contant {
-    /* background-color: aqua; */
     position: absolute;
     width: 100%;
     padding-top: 70px;
     margin: auto;
     color: azure;
-
 }
 
 .break-contant .ready {
     font-family: "Great Vibes", cursive;
     font-weight: 400;
     font-size: 60px;
-
-
 }
 
 /* ---------------------------------------sec7----------------------------- */
 .sec7 {
-    margin-top: 40px;
+    margin-top: 20px;
     background-color: rgba(100, 54, 31, 0.1);
-
-}
-
-.e-shop-title {
-    text-align: center;
-    /* font-size: 40px; */
-    padding-top: 30px;
-}
-
-.line {
-    width: 80px;
-    height: 3px;
-    background-color: rgba(59, 32, 18, 0.95);
-    margin: auto;
-    margin-top: 10px;
-    transition: 0.5s;
-}
-
-.e-shop-sec:hover .line {
-    width: 150px;
 }
 
 .e-shop-item {
     position: relative;
     min-height: 300px;
-    margin-top: 50px;
     margin-bottom: 30px;
-
     text-align: center;
-    /* background-color: rgba(47, 47, 51, 0.7); */
 }
 
 .e-shop-item .card-body {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
 }
-
-.item-overlay {
+/* ----------------------- */
+.item-overlay::before {
     position: absolute;
-    background-color: rgba(50, 50, 50, 0.3);
+    background-color: rgba(66, 41, 41, 0.2);
     visibility: hidden;
-    transition: 0.2s;
+    content: "";
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    transition: 0.7s;
 }
 
-.e-shop-item:hover .item-overlay {
+.e-shop-item:hover .item-overlay::before {
+    width: 100%;
+    height: 100%;
     visibility: visible;
 }
+
+/* -------------- */
+
+.item-overlay::after {
+    position: absolute;
+    background-color: rgba(66, 41, 41, 0.2);
+    visibility: hidden;
+  content: "";
+    width: 0;
+    height: 0;
+
+    right: 0;
+    bottom: 0;
+    transition: 0.7s;
+}
+
+.e-shop-item:hover .item-overlay::after {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+}
+/* ------------ */
 
 .e-shop-item .card-body .item-title {
     font-size: 22px;
@@ -250,7 +195,6 @@ nav {
             100% 0%,
             75% 100%,
             0% 100%);
-
 }
 
 .sec8-container .jumbotron .jumbotron1 .jumbotron2-img {
@@ -275,21 +219,18 @@ nav {
 
 #btn-hover:hover {
     background-color: rgba(95, 63, 49, 0.95);
-
 }
 
 .sec8-container .jumbotron .jumbotron1 .jumbotron1-img-img:hover {
     object-fit: cover;
-
 }
 
 .sec8-container .jumbotron .jumbotron1 .jumbotron2-img-img:hover {
     object-fit: cover;
-
 }
 
-.custom-shadow{
-    box-shadow: 0 0 30px  rgb(59, 32, 18);
+.custom-shadow {
+    box-shadow: 0 0 30px rgb(59, 32, 18);
 }
 
 /* -----------------------followUs-section------------------------ */
@@ -297,7 +238,7 @@ nav {
     box-shadow: 0 0 20px rgb(66, 66, 66);
 }
 
-.Follow-link:hover{
+.Follow-link:hover {
     color: rgb(51, 51, 51);
     text-decoration: none;
 }
@@ -308,7 +249,6 @@ footer {
     background-color: rgba(59, 32, 18, 0.95);
     color: whitesmoke;
     padding: 50px;
-    /* text-align: center; */
     word-spacing: 2px;
     letter-spacing: 2px;
     line-height: 30px;
@@ -321,5 +261,4 @@ footer {
 
 .footer-containt p a:hover {
     color: rgb(92, 96, 99);
-
 }
