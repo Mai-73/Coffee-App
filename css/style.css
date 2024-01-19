@@ -12,9 +12,14 @@ nav {
 
 .list-group {
     position: fixed;
-    right: 0;
+    right: 1%;
     top: 25%;
     z-index: 10;
+}
+/* -----------------main------------------ */
+.carousel-caption {
+    background-color: rgba(75, 42, 22, 0.5); 
+    color: blanchedalmond;
 }
 
 /* ----------------titles------------------------- */
@@ -90,7 +95,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     background-attachment: fixed;
     text-align: center;
 }
