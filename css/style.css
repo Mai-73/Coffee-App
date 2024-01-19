@@ -17,6 +17,16 @@ nav {
     z-index: 10;
 }
 
+/* ----------------titles------------------------- */
+
+.titles{
+    font-family: PT Sans Narrow, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 40px;
+}
+
+
 /*----------------------------- main----------------------------------- */
 /* 
 #main #demo .carousel-inner img {
@@ -181,7 +191,7 @@ nav {
 
 .e-shop-title {
     text-align: center;
-    font-size: 40px;
+    /* font-size: 40px; */
     padding-top: 30px;
 }
 
