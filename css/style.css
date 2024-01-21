@@ -16,9 +16,10 @@ nav {
     top: 25%;
     z-index: 10;
 }
+
 /* -----------------main------------------ */
 .carousel-caption {
-    background-color: rgba(75, 42, 22, 0.5); 
+    background-color: rgba(75, 42, 22, 0.5);
     color: blanchedalmond;
 }
 
@@ -142,6 +143,7 @@ nav {
     padding-left: 0.7rem;
     padding-right: 0.7rem;
 }
+
 /* ----------------------- */
 .item-overlay::before {
     position: absolute;
@@ -168,7 +170,7 @@ nav {
     position: absolute;
     background-color: rgba(66, 41, 41, 0.2);
     visibility: hidden;
-  content: "";
+    content: "";
     width: 0;
     height: 0;
 
@@ -182,6 +184,7 @@ nav {
     height: 100%;
     visibility: visible;
 }
+
 /* ------------ */
 
 .e-shop-item .card-body .item-title {
@@ -258,9 +261,13 @@ footer {
     letter-spacing: 2px;
     line-height: 30px;
 }
+
+.footer-containt .footer-img {
+    transition: 1s;
+}
+
 .footer-containt .footer-img:hover {
     background-color: rgba(100, 70, 55, 0.95);
-
 }
 
 .footer-containt p a {
