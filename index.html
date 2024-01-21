@@ -32,7 +32,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- --------------------headerSection--------------------------- -->
 
     <header>
@@ -53,20 +53,22 @@
                     <li class="nav-item m-auto">
                         <a class="nav-link" href="#About-Us">About Us</a>
                     </li>
-                    <li class="nav-item m-auto">
-                        <a class="nav-link" href="#Services">Services</a>
-                    </li>
 
                     <li class="nav-item m-auto dropdown">
                         <a class="nav-link dropdown-toggle border border-light rounded" href="#" id="navbarDropdown"
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Products</a>
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-secondary" href="#sec-3">Drinks</a>
-                            <a class="dropdown-item text-secondary" href="#sec-3">Equipment</a>
-                            <a class="dropdown-item text-secondary" href="#sec-3">Plates Supplies</a>
+                            <a class="dropdown-item text-secondary" href="#Drinks">Drinks</a>
+                            <a class="dropdown-item text-secondary" href="#Equipment">Equipment</a>
+                            <a class="dropdown-item text-secondary" href="#Supplies">Plates Supplies</a>
                         </div>
                     </li>
+
+                    <li class="nav-item m-auto">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+
 
                     <li class="nav-item m-auto">
                         <a class="nav-link" href="#CONTACT-US">CONTACT US</a>
@@ -194,7 +196,7 @@
         <div class="container-xl">
             <div class="row">
 
-                <div class=" col-lg-4 col-md-6 col-sm-12 types  ">
+                <div id="Drinks" class=" col-lg-4 col-md-6 col-sm-12 types  ">
                     <div class="card card-type   custom-shadow ">
                         <img class="card-img-top type-img" src="images/coffee-drinks.jpg" alt="Card image">
                         <div class="card-img-overlay  type-overlay   ">
@@ -206,7 +208,7 @@
                 </div>
 
 
-                <div class=" col-lg-4 col-md-6 col-sm-12 types">
+                <div id="Equipment" class=" col-lg-4 col-md-6 col-sm-12 types">
                     <div class="card card-type  custom-shadow ">
                         <img class="card-img-top type-img" src="images/equipment.jpg" alt="Card image">
                         <div class="card-img-overlay type-overlay">
@@ -217,7 +219,7 @@
                     </div>
                 </div>
 
-                <div class=" col-lg-4 col-md-6 col-sm-12 types">
+                <div id="Supplies" class=" col-lg-4 col-md-6 col-sm-12 types">
                     <div class="card card-type custom-shadow">
                         <img class="card-img-top type-img" src="images/plates-supplies.jpg" alt="Card image">
                         <div class="card-img-overlay type-overlay">
@@ -257,7 +259,7 @@
     </section>
 
     <!-- --------------------Section_7--------------------------- -->
-    <section class="sec7">
+    <section id="Special-Category" class="sec7" >
 
         <div class="section8-titel">
             <h2 class=" titles text-captalize font-weight-bold p-5 text-center">Special Category</h2>
@@ -439,7 +441,7 @@
 
 
     <!-- --------------------Section8--------------------------- -->
-    <section class="sec8 border mt-4 pb-4">
+    <section id="Services" class="sec8 border mt-4 pb-4">
 
         <div class="section8-titel">
             <h2 class=" titles text-captalize font-weight-bold p-3 text-center">How Make Coffee</h2>
@@ -676,7 +678,13 @@
                 <div class="col-lg-4  col-md-12  ">
                     <hr class="border-top border-3 border-light my-3">
 
-                    <img src="images/logo-img-transformed.png" alt="logo-img" width="150" height="80" draggable="false">
+                     
+                    <img class="footer-img rounded-circle  custom-shadow1 "
+                    src="images/logo-img-transformed.png" alt="logo-img" width="90" height="60" draggable="false">
+                       
+                    <span class="pl-2">Good Company.</span>
+
+
                     <hr class="border-top border-3 border-light my-3">
                     <address>
                         <p>Tel : 000-000-000</p>
@@ -688,16 +696,21 @@
                 <div class="col-lg-4  col-md-12 ">
                     <hr class="border-top border-3 border-light my-3">
 
-                    <img src="images/logo-img-transformed.png" alt="logo-img" width="150" height="80" draggable="false">
+                     
+                    <img class="footer-img rounded-circle  custom-shadow1 "
+                    src="images/logo-img-transformed.png" alt="logo-img" width="90" height="60" draggable="false">
+                       
+                    <span class="pl-2"> Important links.</span>
+
                     <hr class="border-top border-3 border-light my-3">
                     <p>
-                        <a href="#">Visit Us</a>
+                        <a class="important-links" href="#">Visit Us</a>
                     </p>
                     <p>
-                        <a href="#">Take alook</a>
+                        <a class="important-links" href="#">Take alook</a>
                     </p>
                     <p>
-                        <a href="#">Your health is more important</a>
+                        <a class="important-links" href="#">Your health is more important</a>
                     </p>
 
 
@@ -706,7 +719,12 @@
                 <div class="col-lg-4  col-md-12 ">
                     <hr class="border-top border-3 border-light my-3">
 
-                    <img src="images/logo-img-transformed.png" alt="logo-img" width="150" height="80" draggable="false">
+                    
+                    <img class="footer-img rounded-circle  custom-shadow1 "
+                    src="images/logo-img-transformed.png" alt="logo-img" width="90" height="60" draggable="false">
+                       
+                    <span class="pl-2">Vision.</span>
+
                     <hr class="border-top border-3 border-light my-3">
                     <p>Serveices for all</p>
                     <p>Provide best serveices</p>

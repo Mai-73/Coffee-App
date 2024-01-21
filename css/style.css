@@ -258,6 +258,10 @@ footer {
     letter-spacing: 2px;
     line-height: 30px;
 }
+.footer-containt .footer-img:hover {
+    background-color: rgba(100, 70, 55, 0.95);
+
+}
 
 .footer-containt p a {
     color: aliceblue;
